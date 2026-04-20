@@ -11,7 +11,7 @@
 - normalize.css для сброса стилей
 
 ## Демо
-[Посмотреть демо](https://<ваш-логин>.github.io/web-layout-project/)
+[Посмотреть демо](https://<rjavaya>.github.io/web-layout-project/)
 
 ## Скриншоты
 ![Desktop View](img/screenshot-desktop.png)
@@ -32,6 +32,3 @@
 - Flexbox — навигация и карточки товаров
 - Медиа‑запросы — адаптивность
 
-## Инструкция по запуску
-1. Клонируйте репозиторий
-2. Откройте `index.html` в браузере
