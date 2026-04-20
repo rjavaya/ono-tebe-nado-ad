@@ -1,10 +1,74 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-  </head>
-  <body></body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кофейня «Ароматный уголок»</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="logo">
+                    <img src="img/logo.png" alt="Логотип кофейни «Ароматный уголок»" class="logo__img">
+                </a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link">Главная</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Меню</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">О нас</a></li>
+                        <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section id="home" class="hero">
+            <div class="container">
+                <h1 class="hero__title">Добро пожаловать в «Ароматный уголок»</h1>
+                <p class="hero__subtitle">Лучший кофе в городе с 2010 года</p>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section__title">Наше меню</h2>
+                <div class="cards">
+                    <article class="card">
+                        <img src="img/coffee1.jpg" alt="Эспрессо" class="card__img">
+                        <h3 class="card__title">Эспрессо</h3>
+                        <p class="card__price">200 ₽</p>
+                    </article>
+                    <article class="card">
+                        <img src="img/coffee2.jpg" alt="Капучино" class="card__img">
+                        <h3 class="card__title">Капучино</h3>
+                        <p class="card__price">250 ₽</p>
+                    </article>
+                    <article class="card">
+                        <img src="img/coffee3.jpg" alt="Латте" class="card__img">
+                        <h3 class="card__title">Латте</h3>
+                        <p class="card__price">280 ₽</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section__title">О нас</h2>
+                <p class="about__text">Мы создаём идеальный кофе с любовью и заботой о каждом госте.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacts" class="footer">
+        <div class="container">
+            <p class="footer__text">© 2024 Кофейня «Ароматный уголок». Все права защищены.</p>
+        </div>
+    </footer>
+</body>
 </html>
